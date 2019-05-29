@@ -6,9 +6,9 @@ public class Main
 {
     public static void main(String[] args)
     {
-        Dogs dogArr[];
-        dogArr = new Dogs[5];
-        // Dogs[] dogArr = new Dogs[5];
+        // Dogs dogArr[];
+        // dogArr = new Dogs[5];
+        Dogs[] dogArr = new Dogs[5];
 
         System.out.println("*** Arrays ***");
 
@@ -20,7 +20,7 @@ public class Main
         // dogArr[5] = new Dogs ("Mutt", 15, true);
 
         // Print out the array
-        System.out.println("For Loop");
+        System.out.println("For Loop" + dogArr.length);
         for (int i = 0; i < dogArr.length; i++)
         {
             System.out.println(dogArr[i]);
